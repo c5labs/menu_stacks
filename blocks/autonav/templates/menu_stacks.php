@@ -223,7 +223,7 @@ echo '<div class="ccm-responsive-menu-launch"><i></i></div>'; // empty i tag for
         var $navItems = $('.nav-has-mega')
 
         // Close menus & remove selection when another item is hovered over.
-        $('#navigation li').each(function() {
+        $('#navigation > ul > li').each(function() {
             $(this).mouseover(function() {
                 $('.nav-mega-open').removeClass('nav-mega-open')
                 $('.nav-selected').removeClass('nav-selected')
