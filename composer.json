@@ -1,0 +1,13 @@
+{
+    "name": "c5labs/menu_stacks",
+    "description": "Mega menus using stacks.",
+    "type": "concrete5-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oliver Green",
+            "email": "oliver@devisegraphics.co.uk"
+        }
+    ],
+    "minimum-stability": "dev"
+}
